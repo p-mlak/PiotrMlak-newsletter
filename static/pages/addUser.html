@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body>
+    <h2>Zadanie: newsletter - Mlak Piotr 3P12</h2>
+    <div class="container">
+        <form action="/handleForm" method="POST">
+            <label for="nick">nick: </label>
+            <input type="text" id="nick" name="nick" required><br>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <input type="submit" value="Submit">
+        </form>        
+    </div>
+    
+    <a href="/removeUserBySelect">usuń email z użyciem selecta</a><br>
+    <a href="/removeUserByRadio">usuń email z użyciem radio</a><br>
+    <a href="/removeUserByCheckbox">usuń email-e z użyciem checkbox-ów</a>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.container {
+    background-color: cyan;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 5px;;
+}
+
+input {
+    margin: 5px;
+}
+
+a {
+    margin-left: 10%;
+    font-size: 14pt;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
